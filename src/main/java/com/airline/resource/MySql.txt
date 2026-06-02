@@ -35,3 +35,13 @@ CREATE TABLE bookings (
     FOREIGN KEY (flight_id) REFERENCES flights(flight_id),
     FOREIGN KEY (seat_id) REFERENCES seats(seat_id)
 );
+
+### past the code pom.xml 
+<!-- Source:
+		https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+			<scope>compile</scope>
+		</dependency>
