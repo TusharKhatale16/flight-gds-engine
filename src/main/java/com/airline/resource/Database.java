@@ -10,7 +10,7 @@ public class Database {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql//localhost:3306/flight_gds_db", "root","Tushar@16");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/flight_gds_db", "root","Tushar@16");
 			
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
